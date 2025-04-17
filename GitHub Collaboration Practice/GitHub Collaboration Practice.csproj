@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0C2A1952-B77C-4CB8-9DE0-97D5B63BD0CC}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>GitHub_Collaboration_Practice</RootNamespace>
+    <AssemblyName>GitHub Collaboration Practice</AssemblyName>
+    <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Student001.cs" />
+    <Compile Include="Student002.cs" />
+    <Compile Include="Student003.cs" />
+    <Compile Include="Student004.cs" />
+    <Compile Include="Student005.cs" />
+    <Compile Include="Student006.cs" />
+    <Compile Include="Student007.cs" />
+    <Compile Include="Student008.cs" />
+    <Compile Include="Student009.cs" />
+    <Compile Include="Student010.cs" />
+    <Compile Include="Student011.cs" />
+    <Compile Include="Student012.cs" />
+    <Compile Include="Student013.cs" />
+    <Compile Include="Student014.cs" />
+    <Compile Include="Student015.cs" />
+    <Compile Include="Student016.cs" />
+    <Compile Include="Student017.cs" />
+    <Compile Include="Student018.cs" />
+    <Compile Include="Student019.cs" />
+    <Compile Include="Student020.cs" />
+    <Compile Include="Student021.cs" />
+    <Compile Include="Student022.cs" />
+    <Compile Include="Student023.cs" />
+    <Compile Include="Student024.cs" />
+    <Compile Include="Student025.cs" />
+    <Compile Include="Student026.cs" />
+    <Compile Include="Student027.cs" />
+    <Compile Include="Student028.cs" />
+    <Compile Include="Student029.cs" />
+    <Compile Include="Student030.cs" />
+    <Compile Include="Student031.cs" />
+    <Compile Include="Student032.cs" />
+    <Compile Include="Student033.cs" />
+    <Compile Include="Student034.cs" />
+    <Compile Include="Student035.cs" />
+    <Compile Include="Student036.cs" />
+    <Compile Include="Student037.cs" />
+    <Compile Include="Student038.cs" />
+    <Compile Include="Student039.cs" />
+    <Compile Include="Student040.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
